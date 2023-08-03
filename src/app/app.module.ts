@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from "./app.routing.modules";
 
@@ -38,6 +39,7 @@ import { CategoriaReadComponent } from "./components/views/categoria/categoria-r
     MatIconModule,
     MatCardModule,
     MatTableModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
