@@ -18,6 +18,7 @@ import { MatTableModule } from "@angular/material/table";
 import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
 import { HomeComponent } from "./components/views/home/home.component";
+import { MatButtonModule } from "@angular/material/button";
 import { CategoriaReadComponent } from "./components/views/categoria/categoria-read/categoria-read.component";
 
 @NgModule({
@@ -40,6 +41,7 @@ import { CategoriaReadComponent } from "./components/views/categoria/categoria-r
     MatCardModule,
     MatTableModule,
     HttpClientModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
