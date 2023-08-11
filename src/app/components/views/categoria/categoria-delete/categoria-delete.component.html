@@ -25,10 +25,15 @@
   </mat-form-field>
 
   <div class="buttons">
-    <button class="mat-elevation-z8" mat-stroked-button color="primary">
+    <button
+      (click)="delete()"
+      class="mat-elevation-z8"
+      mat-stroked-button
+      color="primary"
+    >
       DELETAR
     </button>
-    <button class="mat-elevation-z8" mat-stroked-button color="warn">
+    <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn">
       CANCELAR
     </button>
   </div>
